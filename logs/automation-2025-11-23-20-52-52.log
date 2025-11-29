@@ -1,0 +1,4 @@
+2025-11-23 20:52:52.608 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\master.xml"
+2025-11-23 20:52:52.739 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\master.xml
+

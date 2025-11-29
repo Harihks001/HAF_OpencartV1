@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN" monitorInterval="30">
+
+  <!-- Define reusable properties -->
+  <Properties>
+    <Property name="basePath">./logs</Property>
+    <Property name="logPattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Property>
+  </Properties>
+
+  <Appenders>
+
+    <!-- Console Appender -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="${logPattern}" />
+    </Console>
+
+    <!-- Rolling File Appender -->
+    <RollingFile name="File"
+                 fileName="${basePath}/automation-${date:yyyy-MM-dd-HH-mm-ss}.log"
+                 filePattern="${basePath}/automation-%d{MM-dd-yyyy}-%i.log.gz">
+      <PatternLayout>
+        <Pattern>${logPattern}</Pattern>
+      </PatternLayout>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+        <SizeBasedTriggeringPolicy size="5MB" />
+      </Policies>
+      <DefaultRolloverStrategy max="10" />
+    </RollingFile>
+
+  </Appenders>
+
+  <Loggers>
+  <Logger name="org.apache.poi" level="WARN"/>
+
+    <!-- Root Logger -->
+    <Root level="debug">
+      <AppenderRef ref="Console" />
+      <AppenderRef ref="File" />
+    </Root>
+
+    <!-- Optional: Reduce noise from Selenium internals -->
+    <!--
+    <Logger name="org.openqa.selenium" level="warn" additivity="false">
+      <AppenderRef ref="File" />
+    </Logger>
+    -->
+
+  </Loggers>
+
+</Configuration>

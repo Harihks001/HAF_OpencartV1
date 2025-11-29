@@ -1,0 +1,9 @@
+2025-11-28 20:44:49.096 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-11-28 20:44:49.299 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-11-28 20:44:52.609 [main] INFO  testCases.TC_LG_001 - Test Started
+2025-11-28 20:44:52.763 [main] INFO  testCases.TC_LG_001 - Navigating to Login page
+2025-11-28 20:44:53.017 [main] INFO  testCases.TC_LG_001 - Filling Login data
+2025-11-28 20:44:53.978 [main] INFO  testCases.TC_LG_001 - Clicked Login button
+2025-11-28 20:44:54.023 [main] INFO  testCases.TC_LG_001 - Successfully Logged in

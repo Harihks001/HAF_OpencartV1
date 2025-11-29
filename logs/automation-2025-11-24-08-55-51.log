@@ -1,0 +1,24 @@
+2025-11-24 08:55:52.088 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\master.xml"
+2025-11-24 08:55:52.318 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\master.xml
+
+2025-11-24 08:55:56.235 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:56:02.650 [main] INFO  testCases.TC_RG_DDT - Already Registered
+2025-11-24 08:56:03.117 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:56:09.345 [main] INFO  testCases.TC_RG_DDT - Already Registered
+2025-11-24 08:56:09.519 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:56:16.165 [main] INFO  testCases.TC_RG_DDT - Already Registered
+2025-11-24 08:56:16.275 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:56:24.118 [main] INFO  testCases.TC_RG_DDT - Successfully Registered
+2025-11-24 08:56:24.248 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:56:31.477 [main] INFO  testCases.TC_RG_DDT - Successfully Registered
+2025-11-24 08:56:31.594 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:56:38.799 [main] INFO  testCases.TC_RG_DDT - Successfully Registered
+2025-11-24 08:56:38.887 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:56:46.353 [main] INFO  testCases.TC_RG_DDT - Successfully Registered
+2025-11-24 08:56:46.465 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:56:53.760 [main] INFO  testCases.TC_RG_DDT - Successfully Registered
+2025-11-24 08:56:53.884 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:57:01.123 [main] INFO  testCases.TC_RG_DDT - Successfully Registered
+2025-11-24 08:57:01.216 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:57:08.814 [main] INFO  testCases.TC_RG_DDT - Successfully Registered

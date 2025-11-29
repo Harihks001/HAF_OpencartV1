@@ -1,0 +1,10 @@
+2025-11-24 08:47:50.027 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\master.xml"
+2025-11-24 08:47:50.269 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\master.xml
+
+2025-11-24 08:47:53.509 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:47:59.851 [main] INFO  testCases.TC_RG_DDT - Registeration was unsuccessfull
+2025-11-24 08:48:00.439 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:48:06.845 [main] INFO  testCases.TC_RG_DDT - Registeration was unsuccessfull
+2025-11-24 08:48:07.102 [main] INFO  testCases.TC_RG_DDT - Test Started
+2025-11-24 08:48:13.539 [main] INFO  testCases.TC_RG_DDT - Registeration was unsuccessfull

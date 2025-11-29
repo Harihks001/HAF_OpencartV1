@@ -1,0 +1,17 @@
+2025-11-23 22:29:53.150 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\master.xml"
+2025-11-23 22:29:53.294 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\master.xml
+
+2025-11-23 22:29:55.753 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 22:30:01.218 [main] INFO  testCases.TC_LG_DDT - Login was Unsuccessful even with valid Data
+2025-11-23 22:30:01.543 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 22:30:06.997 [main] INFO  testCases.TC_LG_DDT - Login was Unsuccessful with Invalid Data
+2025-11-23 22:30:07.121 [main] INFO  testCases.TC_LG_DDT - TC_LG_DDT Test was completed
+2025-11-23 22:30:07.136 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 22:30:15.841 [main] INFO  testCases.TC_LG_DDT - Login was Unsuccessful with Invalid Data
+2025-11-23 22:30:15.925 [main] INFO  testCases.TC_LG_DDT - TC_LG_DDT Test was completed
+2025-11-23 22:30:15.928 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 22:30:21.857 [main] INFO  testCases.TC_LG_DDT - Login was Unsuccessful even with valid Data
+2025-11-23 22:30:21.886 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 22:30:27.758 [main] INFO  testCases.TC_LG_DDT - Login was Unsuccessful with Invalid Data
+2025-11-23 22:30:27.825 [main] INFO  testCases.TC_LG_DDT - TC_LG_DDT Test was completed

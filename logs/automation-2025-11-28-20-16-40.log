@@ -1,0 +1,27 @@
+2025-11-28 20:16:40.924 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-11-28 20:16:41.249 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-11-28 20:17:14.628 [main] INFO  testCases.TC_RG_005 - Starting test: verifyAccountRegistartionPasswordMismatch
+2025-11-28 20:17:14.628 [main] INFO  testCases.TC_RG_005 - Navigating to registration page
+2025-11-28 20:17:15.153 [main] INFO  testCases.TC_RG_005 - Filling registration form with mismatched password data
+2025-11-28 20:17:15.270 [main] DEBUG testCases.TC_RG_005 - Generated email: MsI894@mail.com
+2025-11-28 20:17:15.271 [main] DEBUG testCases.TC_RG_005 - Generated phone: 2645769600
+2025-11-28 20:17:15.422 [main] DEBUG testCases.TC_RG_005 - Entered password: Test@123
+2025-11-28 20:17:15.482 [main] DEBUG testCases.TC_RG_005 - Entered confirm password: Test@321
+2025-11-28 20:17:15.560 [main] INFO  testCases.TC_RG_005 - Agreed to privacy policy
+2025-11-28 20:17:15.959 [main] INFO  testCases.TC_RG_005 - Submitted registration form
+2025-11-28 20:17:20.996 [main] DEBUG testCases.TC_RG_005 - Confirmation message received: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Your Account Has Been Created!']"}
+  (Session info: MicrosoftEdge=142.0.3595.94)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1649afdb7def8ab475a7ace3d3097741, findElement {value=//h1[normalize-space()='Your Account Has Been Created!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 5376, ms:edgeOptions: {debuggerAddress: localhost:63504}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\harih\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63504/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1649afdb7def8ab475a7ace3d3097741
+2025-11-28 20:17:20.997 [main] INFO  testCases.TC_RG_005 - Registration failed as expected due to password mismatch
+2025-11-28 20:17:21.026 [main] DEBUG testCases.TC_RG_005 - Field error count: 1
+2025-11-28 20:17:21.072 [main] DEBUG testCases.TC_RG_005 - Actual error messages: [Password confirmation does not match password!]
+2025-11-28 20:17:21.072 [main] INFO  testCases.TC_RG_005 - Error message validated successfully
+2025-11-28 20:17:21.073 [main] INFO  testCases.TC_RG_005 - Test completed: verifyAccountRegistartionPasswordMismatch

@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<groups>
+		<run>
+			<include name="Main" />
+			<include name="Regression" />
+			<exclude name="Smoke" />
+		</run>
+	</groups>
+
+	<test name="RegisterTests" thread-count="5">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="testCases.TC_RG_001" />
+			<class name="testCases.TC_RG_002" />
+		</classes>
+	</test>
+
+	<test name="LoginTests" thread-count="5">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="testCases.TC_LG_001" />
+		</classes>
+	</test>
+
+</suite>
+<!--Suite -->

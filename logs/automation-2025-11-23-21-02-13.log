@@ -1,0 +1,30 @@
+2025-11-23 21:02:14.139 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\master.xml"
+2025-11-23 21:02:14.275 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\master.xml
+
+2025-11-23 21:02:16.983 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:02:17.090 [main] INFO  testCases.TC_LG_DDT - Navigating to Login page
+2025-11-23 21:02:17.347 [main] INFO  testCases.TC_LG_DDT - Filling Login data
+2025-11-23 21:02:17.501 [main] INFO  testCases.TC_LG_DDT - Clicked Login button
+2025-11-23 21:02:27.521 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:02:27.568 [main] INFO  testCases.TC_LG_DDT - Navigating to Login page
+2025-11-23 21:02:27.770 [main] INFO  testCases.TC_LG_DDT - Filling Login data
+2025-11-23 21:02:27.894 [main] INFO  testCases.TC_LG_DDT - Clicked Login button
+2025-11-23 21:02:37.974 [main] INFO  testCases.TC_LG_DDT - Login was Unsuccessful with Invalid Data
+2025-11-23 21:02:37.974 [main] INFO  testCases.TC_LG_DDT - TC_LG_DDT Test was completed
+2025-11-23 21:02:37.974 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:02:38.029 [main] INFO  testCases.TC_LG_DDT - Navigating to Login page
+2025-11-23 21:02:38.212 [main] INFO  testCases.TC_LG_DDT - Filling Login data
+2025-11-23 21:02:38.343 [main] INFO  testCases.TC_LG_DDT - Clicked Login button
+2025-11-23 21:02:48.374 [main] INFO  testCases.TC_LG_DDT - Login was Unsuccessful with Invalid Data
+2025-11-23 21:02:48.374 [main] INFO  testCases.TC_LG_DDT - TC_LG_DDT Test was completed
+2025-11-23 21:02:48.374 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:02:48.433 [main] INFO  testCases.TC_LG_DDT - Navigating to Login page
+2025-11-23 21:02:48.616 [main] INFO  testCases.TC_LG_DDT - Filling Login data
+2025-11-23 21:02:48.776 [main] INFO  testCases.TC_LG_DDT - Clicked Login button
+2025-11-23 21:02:58.816 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:02:58.864 [main] INFO  testCases.TC_LG_DDT - Navigating to Login page
+2025-11-23 21:02:59.087 [main] INFO  testCases.TC_LG_DDT - Filling Login data
+2025-11-23 21:02:59.226 [main] INFO  testCases.TC_LG_DDT - Clicked Login button
+2025-11-23 21:03:09.278 [main] INFO  testCases.TC_LG_DDT - Login was Unsuccessful with Invalid Data
+2025-11-23 21:03:09.278 [main] INFO  testCases.TC_LG_DDT - TC_LG_DDT Test was completed

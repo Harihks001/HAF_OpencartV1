@@ -1,0 +1,9 @@
+2025-11-23 21:34:10.310 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\master.xml"
+2025-11-23 21:34:10.457 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\master.xml
+
+2025-11-23 21:34:12.852 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:34:13.842 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:34:13.849 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:34:13.857 [main] INFO  testCases.TC_LG_DDT - Test Started
+2025-11-23 21:34:13.864 [main] INFO  testCases.TC_LG_DDT - Test Started
