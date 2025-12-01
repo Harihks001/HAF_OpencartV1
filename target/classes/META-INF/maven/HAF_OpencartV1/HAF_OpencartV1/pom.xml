@@ -6,6 +6,41 @@
 	<artifactId>HAF_OpencartV1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<build>
+		<pluginManagement>
+			<plugins>
+
+				<!--
+                maven-compiler-plugin:
+                Compiles the Java source code using the specified Java version.
+                Ensures consistent compilation across all team members.
+            -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.14.1</version>
+				</plugin>
+
+				<!--
+                maven-surefire-plugin:
+                Runs TestNG test suites during Maven test phase.
+                We map master.xml here so Maven knows which suite to execute.
+            -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.5.3</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>XMLFiles/master.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+
+			</plugins>
+		</pluginManagement>
+	</build>
+
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->

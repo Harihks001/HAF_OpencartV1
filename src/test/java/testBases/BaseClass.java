@@ -64,7 +64,7 @@ public class BaseClass {
 	// Method to generate a Random string
 	@SuppressWarnings("deprecation")
 	public String randomString() {
-		String generatedString = RandomStringUtils.randomAlphabetic(3);
+		String generatedString = RandomStringUtils.randomAlphabetic(5);
 		return generatedString;
 	}
 

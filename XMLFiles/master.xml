@@ -5,27 +5,15 @@
 		<listener class-name="utilities.ExtentReportManager"></listener>
 	</listeners>
 
-	<!--<test name="RegisterTests" thread-count="5">
+	<test name="RegisterTests" thread-count="5">
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="edge" />
 		<classes>
-			<class name="testCases.TC_RG_001" />
-			<class name="testCases.TC_RG_002" />
-			<class name="testCases.TC_RG_003" />
-			<class name="testCases.TC_RG_004" />
-			<class name="testCases.TC_RG_005" />
-			<class name="testCases.TC_RG_DDT" />
-		</classes>
-	</test>-->
-
-	<test name="LoginTests" thread-count="5">
-		<parameter name="os" value="Windows" />
-		<parameter name="browser" value="edge" />
-		<classes>
-			<!--<class name="testCases.TC_LG_001" />-->
-			<class name="testCases.TC_LG_DDT" />
+			<class name="testCases.RegistrationTests" />
+			<class name="testCases.LoginTests" />
+			<!--<class name="testCases.TC_LG_DDT" />
+			<class name="testCases.TC_RG_DDT" />-->
 		</classes>
 	</test>
-
 </suite>
 <!--Suite -->

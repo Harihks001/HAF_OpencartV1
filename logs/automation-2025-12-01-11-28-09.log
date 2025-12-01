@@ -1,0 +1,21 @@
+2025-12-01 11:28:09.736 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-01 11:28:09.893 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-01 11:28:11.807 [main] INFO  testCases.TC_RG_001 - Started the TC_RG_001	Validate successful account registration
+2025-12-01 11:28:12.181 [main] INFO  testCases.TC_RG_001 - Navigated to Registration Page
+2025-12-01 11:28:12.441 [main] INFO  testCases.TC_RG_001 - Account registration form is filled
+2025-12-01 11:28:13.223 [main] INFO  testCases.TC_RG_001 - TC_RG_001 Passed
+2025-12-01 11:28:13.535 [main] INFO  testCases.TC_RG_001 - Fullname:  AutoReg RauWZ
+2025-12-01 11:28:13.535 [main] INFO  testCases.TC_RG_001 - Email: TWr863@mail.com
+2025-12-01 11:28:13.535 [main] INFO  testCases.TC_RG_001 - Password used: Test@001
+2025-12-01 11:28:13.535 [main] INFO  testCases.TC_RG_001 - Generated Telephone: 8036678180
+2025-12-01 11:28:13.543 [main] INFO  testCases.TC_RG_001 - TC_RG_002	Validate registration with existing email
+2025-12-01 11:28:13.778 [main] INFO  testCases.TC_RG_001 - Navigated to Registration Page
+2025-12-01 11:28:14.015 [main] INFO  testCases.TC_RG_001 - Account registration form is filled
+2025-12-01 11:28:19.505 [main] INFO  testCases.TC_RG_001 - Warning message displayed
+2025-12-01 11:28:19.521 [main] INFO  testCases.TC_RG_001 - TC_RG_002 Passed
+2025-12-01 11:28:19.521 [main] INFO  testCases.TC_RG_001 - TC_RG_003 Validate registration with missing mandatory fields
+2025-12-01 11:28:19.790 [main] INFO  testCases.TC_RG_001 - Navigated to Registration Page
+2025-12-01 11:28:20.049 [main] INFO  testCases.TC_RG_001 - Account registration form left blank
+2025-12-01 11:28:25.583 [main] INFO  testCases.TC_RG_001 - TC_RG_003 Passed

@@ -1,0 +1,51 @@
+2025-12-01 10:56:20.651 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-01 10:56:20.819 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-01 10:56:22.721 [main] INFO  testCases.LoginTests - Started the Test TC_LG_001 Validate successful login
+2025-12-01 10:56:22.795 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-01 10:56:23.081 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-01 10:56:24.087 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-01 10:56:24.109 [main] INFO  testCases.LoginTests - Test TC_LG_001 Passed
+2025-12-01 10:56:24.118 [main] INFO  testCases.LoginTests - Started the TC_LG_008	Validate login session persistence
+2025-12-01 10:56:24.321 [main] INFO  testCases.LoginTests - Navigating to wishlist page
+2025-12-01 10:56:24.344 [main] INFO  testCases.LoginTests - Navigating back to the account Page
+2025-12-01 10:56:24.381 [main] INFO  testCases.LoginTests - Test TC_LG_008 passed
+2025-12-01 10:56:24.384 [main] INFO  testCases.LoginTests - Started the Test TC_LG_009	Validate logout after login
+2025-12-01 10:56:24.734 [main] INFO  testCases.LoginTests - Clicked Logout button
+2025-12-01 10:56:24.750 [main] INFO  testCases.LoginTests - Test TC_LG_009 passed
+2025-12-01 10:56:24.752 [main] INFO  testCases.LoginTests - Started the Test TC_LG_002	Validate login with invalid password
+2025-12-01 10:56:24.789 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-01 10:56:25.054 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-01 10:56:25.872 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-01 10:56:25.892 [main] INFO  testCases.LoginTests - Test TC_LG_002 passed
+2025-12-01 10:56:25.894 [main] INFO  testCases.LoginTests - Started the Test TC_LG_003	Validate login with unregistered email
+2025-12-01 10:56:25.934 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-01 10:56:26.154 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-01 10:56:26.278 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-01 10:56:26.904 [main] INFO  testCases.LoginTests - Test TC_LG_003 passed
+2025-12-01 10:56:26.906 [main] INFO  testCases.LoginTests - Started the Test TC_LG_004	Validate login with empty email field
+2025-12-01 10:56:26.945 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-01 10:56:27.154 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-01 10:56:27.893 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-01 10:56:27.896 [main] INFO  testCases.LoginTests - Test TC_LG_004 passed
+2025-12-01 10:56:27.910 [main] INFO  testCases.LoginTests - Started the Test TC_LG_005	Validate login with empty password field
+2025-12-01 10:56:27.952 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-01 10:56:28.133 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-01 10:56:28.263 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-01 10:56:28.814 [main] INFO  testCases.LoginTests - Test TC_LG_005 passed
+2025-12-01 10:56:28.823 [main] INFO  testCases.LoginTests - Started the TC_LG_006	Validate login with both fields empty
+2025-12-01 10:56:28.864 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-01 10:56:29.049 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-01 10:56:29.148 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-01 10:56:29.798 [main] INFO  testCases.LoginTests - Test TC_LG_006 passed
+2025-12-01 10:56:29.798 [main] INFO  testCases.LoginTests - Started the TC_LG_007	Validate login with invalid email format
+2025-12-01 10:56:29.852 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-01 10:56:30.092 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-01 10:56:30.229 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-01 10:56:30.914 [main] INFO  testCases.LoginTests - Test TC_LG_007 passed
+2025-12-01 10:56:30.928 [main] INFO  testCases.LoginTests - Started the Test TC_LG_010	Validate Forgot Password functionality
+2025-12-01 10:56:30.969 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-01 10:56:31.360 [main] INFO  testCases.LoginTests - Forgot password link clicked
+2025-12-01 10:56:31.470 [main] INFO  testCases.LoginTests - Entered the email address
+2025-12-01 10:56:33.127 [main] INFO  testCases.LoginTests - Test TC_LG_010 Passed

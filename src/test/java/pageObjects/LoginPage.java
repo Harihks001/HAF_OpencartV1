@@ -23,6 +23,8 @@ public class LoginPage extends BasePage {
 	WebElement forgottenPassword;
 	@FindBy(xpath = "//input[@value='Login']")
 	WebElement loginbtn;
+	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
+	WebElement NoMatchForCredentials;
 
 //Method 1 to Capture Email address
 	public void setEmail(String Email) {
@@ -48,13 +50,18 @@ public class LoginPage extends BasePage {
 		forgottenPassword.click();
 	}
 
-//Method 5 
-
+//Method 5 get the message if credentials are wrong
+	public String getInvalidDetailsMsg() {
+		try {
+			return NoMatchForCredentials.getText();
+		} catch (Exception e) {
+			return e.getMessage();
+		}
+	}
 //Method 6 
 //Method 7 
 //Method 8 
 
 //Method 9
 //Method 10 
-
 }

@@ -1,0 +1,32 @@
+2025-11-30 21:45:06.067 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-11-30 21:45:06.269 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-11-30 21:45:09.192 [main] INFO  testCases.LoginTests - Started the Test TC_LG_001 Validate successful login
+2025-11-30 21:45:09.292 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-11-30 21:45:09.673 [main] INFO  testCases.LoginTests - Filling Login data
+2025-11-30 21:45:11.718 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-11-30 21:45:11.786 [main] INFO  testCases.LoginTests - Test TC_LG_001 Passed
+2025-11-30 21:45:11.814 [main] INFO  testCases.LoginTests - Started the Test TC_LG_009	Validate logout after login
+2025-11-30 21:45:12.472 [main] INFO  testCases.LoginTests - Clicked Logout button
+2025-11-30 21:45:12.541 [main] INFO  testCases.LoginTests - Test TC_LG_009 passed
+2025-11-30 21:45:12.556 [main] INFO  testCases.LoginTests - Started the Test TC_LG_002	Validate login with invalid password
+2025-11-30 21:45:12.669 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-11-30 21:45:13.094 [main] INFO  testCases.LoginTests - Filling Login data
+2025-11-30 21:45:14.849 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-11-30 21:45:14.921 [main] INFO  testCases.LoginTests - Test TC_LG_002 passed
+2025-11-30 21:45:14.930 [main] INFO  testCases.LoginTests - Started the Test TC_LG_003	Validate login with unregistered email
+2025-11-30 21:45:15.036 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-11-30 21:45:15.514 [main] INFO  testCases.LoginTests - Filling Login data
+2025-11-30 21:45:17.238 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-11-30 21:45:17.295 [main] INFO  testCases.LoginTests - Test TC_LG_003 passed
+2025-11-30 21:45:17.301 [main] INFO  testCases.LoginTests - Started the Test TC_LG_004	Validate login with empty email field
+2025-11-30 21:45:17.432 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-11-30 21:45:17.723 [main] INFO  testCases.LoginTests - Filling Login data
+2025-11-30 21:45:17.936 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-11-30 21:45:18.980 [main] INFO  testCases.LoginTests - Test TC_LG_004 passed
+2025-11-30 21:45:18.988 [main] INFO  testCases.LoginTests - Started the Test TC_LG_005	Validate login with empty password field
+2025-11-30 21:45:19.096 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-11-30 21:45:19.404 [main] INFO  testCases.LoginTests - Filling Login data
+2025-11-30 21:45:20.396 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-11-30 21:45:20.438 [main] INFO  testCases.LoginTests - Test TC_LG_005 passed

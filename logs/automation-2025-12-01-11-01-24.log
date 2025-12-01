@@ -1,0 +1,8 @@
+2025-12-01 11:01:24.840 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-01 11:01:24.991 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-01 11:01:26.922 [main] INFO  testCases.TC_RG_001 - Started the TC_RG_001	Validate successful account registration
+2025-12-01 11:01:27.317 [main] INFO  testCases.TC_RG_001 - Navigated to Registration Page
+2025-12-01 11:01:27.556 [main] INFO  testCases.TC_RG_001 - Account registration form is filled
+2025-12-01 11:01:28.394 [main] INFO  testCases.TC_RG_001 - TC_RG_001 Passed

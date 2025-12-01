@@ -8,13 +8,14 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC_LG_DDT">
+      <class name="testCases.LoginTests">
         <methods>
           <include name="tearDown"/>
-          <include name="LoginDDT" invocation-numbers="3 4"/>
           <include name="setUp"/>
+          <include name="validateLoginPersistence"/>
+          <include name="verifyAccountLogin"/>
         </methods>
-      </class> <!-- testCases.TC_LG_DDT -->
+      </class> <!-- testCases.LoginTests -->
     </classes>
   </test> <!-- LoginTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

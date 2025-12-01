@@ -1,0 +1,47 @@
+2025-12-01 11:38:42.083 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-01 11:38:42.230 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-01 11:38:44.108 [main] INFO  testCases.TC_RG_001 - Started TC_RG_001 Validate successful account registration
+2025-12-01 11:38:44.510 [main] INFO  testCases.TC_RG_001 - Navigated to Registration Page
+2025-12-01 11:38:44.746 [main] INFO  testCases.TC_RG_001 - Account registration form is filled
+2025-12-01 11:38:45.604 [main] INFO  testCases.TC_RG_001 - TC_RG_001 Passed
+2025-12-01 11:38:45.914 [main] INFO  testCases.TC_RG_001 - Fullname:  AutoReg KkUzz
+2025-12-01 11:38:45.914 [main] INFO  testCases.TC_RG_001 - Email: omQ586@mail.com
+2025-12-01 11:38:45.914 [main] INFO  testCases.TC_RG_001 - Password used: Test@001
+2025-12-01 11:38:45.914 [main] INFO  testCases.TC_RG_001 - Generated Telephone: 6624660378
+2025-12-01 11:38:45.924 [main] INFO  testCases.TC_RG_001 - Started TC_RG_002	Validate registration with existing email
+2025-12-01 11:38:46.192 [main] INFO  testCases.TC_RG_001 - Navigated to Registration Page
+2025-12-01 11:38:46.423 [main] INFO  testCases.TC_RG_001 - Account registration form is filled
+2025-12-01 11:38:52.006 [main] INFO  testCases.TC_RG_001 - Warning message displayed
+2025-12-01 11:38:52.022 [main] INFO  testCases.TC_RG_001 - TC_RG_002 Passed
+2025-12-01 11:38:52.038 [main] INFO  testCases.TC_RG_001 - Started TC_RG_003 Validate registration with missing mandatory fields
+2025-12-01 11:38:52.283 [main] INFO  testCases.TC_RG_001 - Navigated to Registration Page
+2025-12-01 11:38:52.557 [main] INFO  testCases.TC_RG_001 - Account registration form left blank
+2025-12-01 11:38:58.210 [main] INFO  testCases.TC_RG_001 - TC_RG_003 Passed
+2025-12-01 11:38:58.210 [main] INFO  testCases.TC_RG_001 - Started TC_RG_003 Validate registration with missing mandatory fields
+2025-12-01 11:38:58.503 [main] INFO  testCases.TC_RG_001 - Navigated to Registration Page
+2025-12-01 11:38:58.739 [main] INFO  testCases.TC_RG_001 - Account registration form is filled
+2025-12-01 11:39:03.887 [main] INFO  testCases.TC_RG_001 - TC_RG_004 Passed
+2025-12-01 11:39:03.887 [main] INFO  testCases.TC_RG_001 - Started TC_RG_005 Validate registration with mismatched password and confirm password
+2025-12-01 11:39:03.887 [main] INFO  testCases.TC_RG_001 - Navigating to registration page
+2025-12-01 11:39:04.409 [main] INFO  testCases.TC_RG_001 - Filling registration form with mismatched password data
+2025-12-01 11:39:04.487 [main] DEBUG testCases.TC_RG_001 - Generated email: INI506@mail.com
+2025-12-01 11:39:04.487 [main] DEBUG testCases.TC_RG_001 - Generated phone: 3982811940
+2025-12-01 11:39:04.600 [main] DEBUG testCases.TC_RG_001 - Entered password: Test@123
+2025-12-01 11:39:04.652 [main] DEBUG testCases.TC_RG_001 - Entered confirm password: Test@321
+2025-12-01 11:39:04.688 [main] INFO  testCases.TC_RG_001 - Agreed to privacy policy
+2025-12-01 11:39:04.746 [main] INFO  testCases.TC_RG_001 - Submitted registration form
+2025-12-01 11:39:10.656 [main] DEBUG testCases.TC_RG_001 - Confirmation message received: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Your Account Has Been Created!']"}
+  (Session info: MicrosoftEdge=142.0.3595.94)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [26fffdd21385965e25683cfd2fc0f886, findElement {value=//h1[normalize-space()='Your Account Has Been Created!'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 11748, ms:edgeOptions: {debuggerAddress: localhost:60549}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\harih\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60549/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26fffdd21385965e25683cfd2fc0f886
+2025-12-01 11:39:10.656 [main] INFO  testCases.TC_RG_001 - Registration failed as expected due to password mismatch
+2025-12-01 11:39:10.671 [main] DEBUG testCases.TC_RG_001 - Field error count: 1
+2025-12-01 11:39:10.671 [main] DEBUG testCases.TC_RG_001 - Actual error messages: [Password confirmation does not match password!]
+2025-12-01 11:39:10.671 [main] INFO  testCases.TC_RG_001 - TC_RG_005 Passed

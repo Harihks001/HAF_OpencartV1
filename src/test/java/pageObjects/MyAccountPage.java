@@ -20,9 +20,11 @@ public class MyAccountPage extends BasePage {
 	@FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Logout']")
 	WebElement logoutbtn;
 	@FindBy(xpath = "//h1[normalize-space()='Account Logout']")
-	WebElement accountLogout;//even though this is on another page just because of only one, adding it here
+	WebElement accountLogoutTitle;//even though this is on another page just because of only one, adding it here
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Wish List']") 
+	WebElement wishList;
 
-   //Method to Capture Email address
+   //Method to verify if My Account page is visible
 	public boolean isMyAccountDisplayed() {
 
 		try {
@@ -42,10 +44,16 @@ public class MyAccountPage extends BasePage {
 	public boolean isAcclogoutDisplayed() {
 
 		try {
-			return (accountLogout.isDisplayed());
+			return (accountLogoutTitle.isDisplayed());
 		} catch (Exception e) {
 			return false;
 		}
+	}
+	
+	//Method to click the wish list button
+	public void clickWishList() {
+
+		wishList.click();
 	}
 
 }

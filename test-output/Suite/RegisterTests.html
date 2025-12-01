@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>RegisterTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 28 20:16:41 IST 2025</td>
+<td>Started on:</td><td>Mon Dec 01 11:38:42 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>42 seconds (42495 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28630 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,74 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.TC_RG_001.verifyAccountRegistartion()'><b>verifyAccountRegistartion</b><br>Test class: testCases.TC_RG_001</td>
-<td><div><pre>java.lang.AssertionError: expected [Your Account Has Been Created!] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]&quot;}
-  (Session info: MicrosoftEdge=142.0.3595.94)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5083481544802275f096358003f91f82, findElement {value=//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 25836, ms:edgeOptions: {debuggerAddress: localhost:51192}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\harih\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51192/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5083481544802275f096358003f91f82]
-	at testCases.TC_RG_001.verifyAccountRegistartion(TC_RG_001.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1041905665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1041905665'><pre>java.lang.AssertionError: expected [Your Account Has Been Created!] but found [no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;]&quot;}
-  (Session info: MicrosoftEdge=142.0.3595.94)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5083481544802275f096358003f91f82, findElement {value=//h1[normalize-space()=&apos;Your Account Has Been Created!&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.94, fedcm:accounts: true, goog:processID: 25836, ms:edgeOptions: {debuggerAddress: localhost:51192}, msedge: {msedgedriverVersion: 142.0.3595.94 (6565d6e52817..., userDataDir: C:\Users\harih\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51192/devtoo..., se:cdpVersion: 142.0.3595.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5083481544802275f096358003f91f82]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testCases.TC_RG_001.verifyAccountRegistartion(TC_RG_001.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>7</td>
-<td>testCases.TC_RG_001@53d1b9b3</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -144,57 +76,30 @@ Session ID: 5083481544802275f096358003f91f82]
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC_RG_003.verifyAccountRegistartionwithoutMandatiryFields()'><b>verifyAccountRegistartionwithoutMandatiryFields</b><br>Test class: testCases.TC_RG_003</td>
+<td title='testCases.TC_RG_001.verifyAccountRegistartionwithInvalidEmail()'><b>verifyAccountRegistartionwithInvalidEmail</b><br>Test class: testCases.TC_RG_001</td>
 <td></td>
-<td>7</td>
-<td>testCases.TC_RG_003@2262b621</td></tr>
+<td>5</td>
+<td>testCases.TC_RG_001@207b8649</td></tr>
 <tr>
-<td title='testCases.TC_RG_004.verifyAccountRegistartionwithInvalidEmail()'><b>verifyAccountRegistartionwithInvalidEmail</b><br>Test class: testCases.TC_RG_004</td>
-<td></td>
-<td>8</td>
-<td>testCases.TC_RG_004@7e928e2f</td></tr>
-<tr>
-<td title='testCases.TC_RG_005.verifyAccountRegistartionPasswordMismatch()'><b>verifyAccountRegistartionPasswordMismatch</b><br>Test class: testCases.TC_RG_005</td>
+<td title='testCases.TC_RG_001.verifyAccountRegistartionPasswordMismatch()'><b>verifyAccountRegistartionPasswordMismatch</b><br>Test class: testCases.TC_RG_001</td>
 <td></td>
 <td>6</td>
-<td>testCases.TC_RG_005@f667fe</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>testCases.TC_RG_001@207b8649</td></tr>
 <tr>
-<td title='testCases.TC_RG_002.verifyAccountRegistartionwithExistingEmail()'><b>verifyAccountRegistartionwithExistingEmail</b><br>Test class: testCases.TC_RG_002</td>
-<td><div><pre>java.lang.Throwable: Method TC_RG_002.verifyAccountRegistartionwithExistingEmail()[pri:0, instance:testCases.TC_RG_002@7c209437] depends on not successfully finished methods in group &quot;registration&quot;
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace231900526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace231900526'><pre>java.lang.Throwable: Method TC_RG_002.verifyAccountRegistartionwithExistingEmail()[pri:0, instance:testCases.TC_RG_002@7c209437] depends on not successfully finished methods in group &quot;registration&quot;
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testCases.TC_RG_002@7c209437</td></tr>
+<td title='testCases.TC_RG_001.verifyAccountRegistartionwithoutMandatiryFields()'><b>verifyAccountRegistartionwithoutMandatiryFields</b><br>Test class: testCases.TC_RG_001</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_RG_001@207b8649</td></tr>
+<tr>
+<td title='testCases.TC_RG_001.verifyAccountRegistartion()'><b>verifyAccountRegistartion</b><br>Test class: testCases.TC_RG_001</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC_RG_001@207b8649</td></tr>
+<tr>
+<td title='testCases.TC_RG_001.verifyAccountRegistartionwithExistingEmail()'><b>verifyAccountRegistartionwithExistingEmail</b><br>Test class: testCases.TC_RG_001</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC_RG_001@207b8649</td></tr>
 </table><p>
 </body>
 </html>

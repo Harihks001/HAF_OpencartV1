@@ -66,7 +66,8 @@ public class ExtentReportManager implements ITestListener {
 
 	// Method to execute if a test got Passed
 	public void onTestSuccess(ITestResult result) {
-		test = extent.createTest(result.getTestClass().getName());
+		//test = extent.createTest(result.getTestClass().getName()); // get test name in the extent report
+		test= extent.createTest(result.getMethod().getMethodName());// get method name in the extent report
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.PASS, result.getName() + " got successfully executed");
 
@@ -74,7 +75,7 @@ public class ExtentReportManager implements ITestListener {
 
 	// Method to execute if a test got Failed
 	public void onTestFailure(ITestResult result) {
-		test = extent.createTest(result.getTestClass().getName());
+		test= extent.createTest(result.getMethod().getMethodName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.FAIL, result.getName() + " got Failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
@@ -92,7 +93,7 @@ public class ExtentReportManager implements ITestListener {
 
 	// Method to execute if a test got Skipped
 	public void onTestSkipped(ITestResult result) {
-		test = extent.createTest(result.getTestClass().getName());
+		test= extent.createTest(result.getMethod().getMethodName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.SKIP, result.getName() + " got Skipped");
 		test.log(Status.INFO, result.getThrowable().getMessage());
