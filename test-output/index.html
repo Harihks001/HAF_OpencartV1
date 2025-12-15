@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">24 methods, 1 failed,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="verifySearchforEmptyInput">verifySearchforEmptyInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,27 +117,117 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_RG_001" class="method navigator-link" hash-for-method="verifyAccountRegistartion">verifyAccountRegistartion</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="validateAddtoCart">validateAddtoCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_RG_001" class="method navigator-link" hash-for-method="verifyAccountRegistartionPasswordMismatch">verifyAccountRegistartionPasswordMismatch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="validateAddtoComparison">validateAddtoComparison</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_RG_001" class="method navigator-link" hash-for-method="verifyAccountRegistartionwithExistingEmail">verifyAccountRegistartionwithExistingEmail</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="validateAddtoWhislist">validateAddtoWhislist</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_RG_001" class="method navigator-link" hash-for-method="verifyAccountRegistartionwithInvalidEmail">verifyAccountRegistartionwithInvalidEmail</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="validateLogOut">validateLogOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC_RG_001" class="method navigator-link" hash-for-method="verifyAccountRegistartionwithoutMandatiryFields">verifyAccountRegistartionwithoutMandatiryFields</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="validateLoginPersistence">validateLoginPersistence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="validateLoginwithEmptyEmail">validateLoginwithEmptyEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="validateLoginwithEmptyPassword">validateLoginwithEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="validateLoginwithEmptycredentials">validateLoginwithEmptycredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="validateLoginwithInvalidEmail">validateLoginwithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="validateLoginwithInvalidEmailFormat">validateLoginwithInvalidEmailFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="validateLoginwithInvalidPasswrd">validateLoginwithInvalidPasswrd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="verifyAccountLogin">verifyAccountLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTests" class="method navigator-link" hash-for-method="verifyAccountRegistartion">verifyAccountRegistartion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTests" class="method navigator-link" hash-for-method="verifyAccountRegistartionPasswordMismatch">verifyAccountRegistartionPasswordMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTests" class="method navigator-link" hash-for-method="verifyAccountRegistartionwithExistingEmail">verifyAccountRegistartionwithExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTests" class="method navigator-link" hash-for-method="verifyAccountRegistartionwithInvalidEmail">verifyAccountRegistartionwithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTests" class="method navigator-link" hash-for-method="verifyAccountRegistartionwithoutMandatiryFields">verifyAccountRegistartionwithoutMandatiryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTests" class="method navigator-link" hash-for-method="verifyForgotPasswordFunctn">verifyForgotPasswordFunctn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="verifySearchFnctn">verifySearchFnctn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="verifySearchResultNavigation">verifySearchResultNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="verifySearchforCaseSensitivity">verifySearchforCaseSensitivity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="verifySearchforPartialName">verifySearchforPartialName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTests" class="method navigator-link" hash-for-method="verifySearchforSpecialCharacters">verifySearchforSpecialCharacters</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -138,10 +242,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.SearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchforEmptyInput">
+                  </a> <!-- verifySearchforEmptyInput -->
+                  <span class="method-name">verifySearchforEmptyInput</span>
+                  <div class="stack-trace">java.lang.AssertionError: Search results Displayed ignoring Empty item expected [true] but found [false]
+	at testCases.SearchTests.verifySearchforEmptyInput(SearchTests.java:145)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_RG_001</span>
+              <span class="class-name">testCases.RegistrationTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -181,6 +305,148 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogOut">
+                  </a> <!-- validateLogOut -->
+                  <span class="method-name">validateLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginPersistence">
+                  </a> <!-- validateLoginPersistence -->
+                  <span class="method-name">validateLoginPersistence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginwithEmptyEmail">
+                  </a> <!-- validateLoginwithEmptyEmail -->
+                  <span class="method-name">validateLoginwithEmptyEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginwithEmptyPassword">
+                  </a> <!-- validateLoginwithEmptyPassword -->
+                  <span class="method-name">validateLoginwithEmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginwithEmptycredentials">
+                  </a> <!-- validateLoginwithEmptycredentials -->
+                  <span class="method-name">validateLoginwithEmptycredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginwithInvalidEmail">
+                  </a> <!-- validateLoginwithInvalidEmail -->
+                  <span class="method-name">validateLoginwithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginwithInvalidEmailFormat">
+                  </a> <!-- validateLoginwithInvalidEmailFormat -->
+                  <span class="method-name">validateLoginwithInvalidEmailFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginwithInvalidPasswrd">
+                  </a> <!-- validateLoginwithInvalidPasswrd -->
+                  <span class="method-name">validateLoginwithInvalidPasswrd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountLogin">
+                  </a> <!-- verifyAccountLogin -->
+                  <span class="method-name">verifyAccountLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPasswordFunctn">
+                  </a> <!-- verifyForgotPasswordFunctn -->
+                  <span class="method-name">verifyForgotPasswordFunctn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SearchTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddtoCart">
+                  </a> <!-- validateAddtoCart -->
+                  <span class="method-name">validateAddtoCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddtoComparison">
+                  </a> <!-- validateAddtoComparison -->
+                  <span class="method-name">validateAddtoComparison</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddtoWhislist">
+                  </a> <!-- validateAddtoWhislist -->
+                  <span class="method-name">validateAddtoWhislist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFnctn">
+                  </a> <!-- verifySearchFnctn -->
+                  <span class="method-name">verifySearchFnctn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchResultNavigation">
+                  </a> <!-- verifySearchResultNavigation -->
+                  <span class="method-name">verifySearchResultNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchforCaseSensitivity">
+                  </a> <!-- verifySearchforCaseSensitivity -->
+                  <span class="method-name">verifySearchforCaseSensitivity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchforPartialName">
+                  </a> <!-- verifySearchforPartialName -->
+                  <span class="method-name">verifySearchforPartialName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchforSpecialCharacters">
+                  </a> <!-- verifySearchforSpecialCharacters -->
+                  <span class="method-name">verifySearchforSpecialCharacters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -198,7 +464,9 @@
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_RG_001&quot;/&gt;
+      &lt;class name=&quot;testCases.RegistrationTests&quot;/&gt;
+      &lt;class name=&quot;testCases.LoginTests&quot;/&gt;
+      &lt;class name=&quot;testCases.SearchTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- RegisterTests --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -212,7 +480,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">RegisterTests (1 class)</span>
+                <span class="test-name">RegisterTests (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,32 +506,108 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(24);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyAccountRegistartionPasswordMismatch')
-data.setCell(0, 2, 'testCases.TC_RG_001')
-data.setCell(0, 3, 6784);
+data.setCell(0, 1, 'verifyAccountRegistartionwithoutMandatiryFields')
+data.setCell(0, 2, 'testCases.RegistrationTests')
+data.setCell(0, 3, 6096);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAccountRegistartionwithoutMandatiryFields')
-data.setCell(1, 2, 'testCases.TC_RG_001')
-data.setCell(1, 3, 6172);
+data.setCell(1, 1, 'verifyAccountRegistartionwithExistingEmail')
+data.setCell(1, 2, 'testCases.RegistrationTests')
+data.setCell(1, 3, 5941);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyAccountRegistartionwithExistingEmail')
-data.setCell(2, 2, 'testCases.TC_RG_001')
-data.setCell(2, 3, 6099);
+data.setCell(2, 1, 'verifyAccountRegistartionPasswordMismatch')
+data.setCell(2, 2, 'testCases.RegistrationTests')
+data.setCell(2, 3, 5663);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyAccountRegistartionwithInvalidEmail')
-data.setCell(3, 2, 'testCases.TC_RG_001')
-data.setCell(3, 3, 5677);
+data.setCell(3, 1, 'verifySearchforEmptyInput')
+data.setCell(3, 2, 'testCases.SearchTests')
+data.setCell(3, 3, 5605);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyAccountRegistartion')
-data.setCell(4, 2, 'testCases.TC_RG_001')
-data.setCell(4, 3, 1811);
+data.setCell(4, 1, 'verifyAccountRegistartionwithInvalidEmail')
+data.setCell(4, 2, 'testCases.RegistrationTests')
+data.setCell(4, 3, 5595);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyForgotPasswordFunctn')
+data.setCell(5, 2, 'testCases.LoginTests')
+data.setCell(5, 3, 2040);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyAccountRegistartion')
+data.setCell(6, 2, 'testCases.RegistrationTests')
+data.setCell(6, 3, 1797);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateLoginwithEmptycredentials')
+data.setCell(7, 2, 'testCases.LoginTests')
+data.setCell(7, 3, 1773);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySearchFnctn')
+data.setCell(8, 2, 'testCases.SearchTests')
+data.setCell(8, 3, 1681);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyAccountLogin')
+data.setCell(9, 2, 'testCases.LoginTests')
+data.setCell(9, 3, 1314);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateLoginwithEmptyEmail')
+data.setCell(10, 2, 'testCases.LoginTests')
+data.setCell(10, 3, 1018);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateLoginwithInvalidPasswrd')
+data.setCell(11, 2, 'testCases.LoginTests')
+data.setCell(11, 3, 1010);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateAddtoCart')
+data.setCell(12, 2, 'testCases.SearchTests')
+data.setCell(12, 3, 998);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateLoginwithInvalidEmailFormat')
+data.setCell(13, 2, 'testCases.LoginTests')
+data.setCell(13, 3, 971);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateLoginwithInvalidEmail')
+data.setCell(14, 2, 'testCases.LoginTests')
+data.setCell(14, 3, 862);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateLoginwithEmptyPassword')
+data.setCell(15, 2, 'testCases.LoginTests')
+data.setCell(15, 3, 816);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifySearchResultNavigation')
+data.setCell(16, 2, 'testCases.SearchTests')
+data.setCell(16, 3, 537);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySearchforPartialName')
+data.setCell(17, 2, 'testCases.SearchTests')
+data.setCell(17, 3, 397);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifySearchforCaseSensitivity')
+data.setCell(18, 2, 'testCases.SearchTests')
+data.setCell(18, 3, 360);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifySearchforSpecialCharacters')
+data.setCell(19, 2, 'testCases.SearchTests')
+data.setCell(19, 3, 335);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateLogOut')
+data.setCell(20, 2, 'testCases.LoginTests')
+data.setCell(20, 3, 322);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateAddtoComparison')
+data.setCell(21, 2, 'testCases.SearchTests')
+data.setCell(21, 3, 290);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateLoginPersistence')
+data.setCell(22, 2, 'testCases.LoginTests')
+data.setCell(22, 3, 270);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateAddtoWhislist')
+data.setCell(23, 2, 'testCases.SearchTests')
+data.setCell(23, 3, 226);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -289,34 +633,134 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_RG_001</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.RegistrationTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(Windows, edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyAccountRegistartion</span>
-                <span class="method-start">1758 ms</span>
+                <span class="method-start">2041 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyAccountRegistartionwithExistingEmail</span>
-                <span class="method-start">3578 ms</span>
+                <span class="method-start">3848 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyAccountRegistartionwithoutMandatiryFields</span>
-                <span class="method-start">9693 ms</span>
+                <span class="method-start">9789 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyAccountRegistartionwithInvalidEmail</span>
-                <span class="method-start">15865 ms</span>
+                <span class="method-start">15887 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyAccountRegistartionPasswordMismatch</span>
-                <span class="method-start">21542 ms</span>
+                <span class="method-start">21482 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28342 ms</span>
+                <span class="method-start">27160 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Windows, edge)</span>
+                <span class="method-start">27395 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountLogin</span>
+                <span class="method-start">29003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginPersistence</span>
+                <span class="method-start">30332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLogOut</span>
+                <span class="method-start">30617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginwithInvalidPasswrd</span>
+                <span class="method-start">30941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginwithInvalidEmail</span>
+                <span class="method-start">31966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginwithEmptyEmail</span>
+                <span class="method-start">32829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginwithEmptyPassword</span>
+                <span class="method-start">33848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginwithEmptycredentials</span>
+                <span class="method-start">34666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginwithInvalidEmailFormat</span>
+                <span class="method-start">36441 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPasswordFunctn</span>
+                <span class="method-start">37413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39454 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SearchTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Windows, edge)</span>
+                <span class="method-start">39591 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchFnctn</span>
+                <span class="method-start">41025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchResultNavigation</span>
+                <span class="method-start">42708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAddtoWhislist</span>
+                <span class="method-start">43247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAddtoComparison</span>
+                <span class="method-start">43474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAddtoCart</span>
+                <span class="method-start">43765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchforPartialName</span>
+                <span class="method-start">44764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchforCaseSensitivity</span>
+                <span class="method-start">45162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchforSpecialCharacters</span>
+                <span class="method-start">45523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySearchforEmptyInput</span>
+                <span class="method-start">45859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51576 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,164 @@
+2025-12-13 21:49:13.134 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-13 21:49:13.363 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-13 21:49:16.907 [main] INFO  testCases.RegistrationTests - Started TC_RG_001 Validate successful account registration
+2025-12-13 21:49:18.548 [main] INFO  testCases.RegistrationTests - Navigated to Registration Page
+2025-12-13 21:49:19.229 [main] INFO  testCases.RegistrationTests - Account registration form is filled
+2025-12-13 21:49:20.459 [main] INFO  testCases.RegistrationTests - TC_RG_001 Passed
+2025-12-13 21:49:20.983 [main] INFO  testCases.RegistrationTests - Fullname:  AutoReg THGDo
+2025-12-13 21:49:20.983 [main] INFO  testCases.RegistrationTests - Email: StW670@mail.com
+2025-12-13 21:49:20.983 [main] INFO  testCases.RegistrationTests - Password used: Test@001
+2025-12-13 21:49:20.983 [main] INFO  testCases.RegistrationTests - Generated Telephone: 3460308532
+2025-12-13 21:49:21.017 [main] INFO  testCases.RegistrationTests - Started TC_RG_002	Validate registration with existing email
+2025-12-13 21:49:21.457 [main] INFO  testCases.RegistrationTests - Navigated to Registration Page
+2025-12-13 21:49:21.794 [main] INFO  testCases.RegistrationTests - Account registration form is filled
+2025-12-13 21:49:27.402 [main] INFO  testCases.RegistrationTests - Warning message displayed
+2025-12-13 21:49:27.442 [main] INFO  testCases.RegistrationTests - TC_RG_002 Passed
+2025-12-13 21:49:27.452 [main] INFO  testCases.RegistrationTests - Started TC_RG_003 Validate registration with missing mandatory fields
+2025-12-13 21:49:27.889 [main] INFO  testCases.RegistrationTests - Navigated to Registration Page
+2025-12-13 21:49:28.643 [main] INFO  testCases.RegistrationTests - Account registration form left blank
+2025-12-13 21:49:34.425 [main] INFO  testCases.RegistrationTests - TC_RG_003 Passed
+2025-12-13 21:49:34.431 [main] INFO  testCases.RegistrationTests - Started TC_RG_003 Validate registration with missing mandatory fields
+2025-12-13 21:49:34.822 [main] INFO  testCases.RegistrationTests - Navigated to Registration Page
+2025-12-13 21:49:35.181 [main] INFO  testCases.RegistrationTests - Account registration form is filled
+2025-12-13 21:49:40.476 [main] INFO  testCases.RegistrationTests - TC_RG_004 Passed
+2025-12-13 21:49:40.476 [main] INFO  testCases.RegistrationTests - Started TC_RG_005 Validate registration with mismatched password and confirm password
+2025-12-13 21:49:40.483 [main] INFO  testCases.RegistrationTests - Navigating to registration page
+2025-12-13 21:49:40.942 [main] INFO  testCases.RegistrationTests - Filling registration form with mismatched password data
+2025-12-13 21:49:41.070 [main] DEBUG testCases.RegistrationTests - Generated email: lmA082@mail.com
+2025-12-13 21:49:41.070 [main] DEBUG testCases.RegistrationTests - Generated phone: 4227775506
+2025-12-13 21:49:41.250 [main] DEBUG testCases.RegistrationTests - Entered password: Test@123
+2025-12-13 21:49:41.304 [main] DEBUG testCases.RegistrationTests - Entered confirm password: Test@321
+2025-12-13 21:49:41.357 [main] INFO  testCases.RegistrationTests - Agreed to privacy policy
+2025-12-13 21:49:41.436 [main] INFO  testCases.RegistrationTests - Submitted registration form
+2025-12-13 21:49:46.919 [main] DEBUG testCases.RegistrationTests - Confirmation message received: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Your Account Has Been Created!']"}
+  (Session info: MicrosoftEdge=143.0.3650.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c84f67f4be1ffdc77067564c76e9ca4e, findElement {using=xpath, value=//h1[normalize-space()='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.66, fedcm:accounts: true, goog:processID: 33628, ms:edgeOptions: {debuggerAddress: localhost:62593}, msedge: {msedgedriverVersion: 143.0.3650.80 (788579717f68..., userDataDir: C:\Users\harih\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62593/devtoo..., se:cdpVersion: 143.0.3650.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c84f67f4be1ffdc77067564c76e9ca4e
+2025-12-13 21:49:46.919 [main] INFO  testCases.RegistrationTests - Registration failed as expected due to password mismatch
+2025-12-13 21:49:46.959 [main] DEBUG testCases.RegistrationTests - Field error count: 1
+2025-12-13 21:49:47.041 [main] DEBUG testCases.RegistrationTests - Actual error messages: [Password confirmation does not match password!]
+2025-12-13 21:49:47.041 [main] INFO  testCases.RegistrationTests - TC_RG_005 Passed
+2025-12-13 21:49:49.435 [main] INFO  testCases.LoginTests - Started the Test TC_LG_001 Validate successful login
+2025-12-13 21:49:49.556 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:49:49.807 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:49:50.049 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:49:50.943 [main] INFO  testCases.LoginTests - Test TC_LG_001 Passed
+2025-12-13 21:49:50.951 [main] INFO  testCases.LoginTests - Started the TC_LG_008	Validate login session persistence
+2025-12-13 21:49:51.335 [main] INFO  testCases.LoginTests - Navigating to wishlist page
+2025-12-13 21:49:51.390 [main] INFO  testCases.LoginTests - Navigating back to the account Page
+2025-12-13 21:49:51.509 [main] INFO  testCases.LoginTests - Test TC_LG_008 passed
+2025-12-13 21:49:51.518 [main] INFO  testCases.LoginTests - Started the Test TC_LG_009	Validate logout after login
+2025-12-13 21:49:52.026 [main] INFO  testCases.LoginTests - Clicked Logout button
+2025-12-13 21:49:52.073 [main] INFO  testCases.LoginTests - Test TC_LG_009 passed
+2025-12-13 21:49:52.082 [main] INFO  testCases.LoginTests - Started the Test TC_LG_002	Validate login with invalid password
+2025-12-13 21:49:52.191 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:49:52.486 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:49:52.728 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:49:53.384 [main] INFO  testCases.LoginTests - Test TC_LG_002 passed
+2025-12-13 21:49:53.394 [main] INFO  testCases.LoginTests - Started the Test TC_LG_003	Validate login with unregistered email
+2025-12-13 21:49:53.549 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:49:53.844 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:49:54.644 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:49:54.680 [main] INFO  testCases.LoginTests - Test TC_LG_003 passed
+2025-12-13 21:49:54.684 [main] INFO  testCases.LoginTests - Started the Test TC_LG_004	Validate login with empty email field
+2025-12-13 21:49:54.795 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:49:55.164 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:49:56.126 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:49:56.166 [main] INFO  testCases.LoginTests - Test TC_LG_004 passed
+2025-12-13 21:49:56.174 [main] INFO  testCases.LoginTests - Started the Test TC_LG_005	Validate login with empty password field
+2025-12-13 21:49:56.281 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:49:56.593 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:49:56.780 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:49:57.203 [main] INFO  testCases.LoginTests - Test TC_LG_005 passed
+2025-12-13 21:49:57.209 [main] INFO  testCases.LoginTests - Started the TC_LG_006	Validate login with both fields empty
+2025-12-13 21:49:57.326 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:49:57.605 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:49:57.763 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:49:58.446 [main] INFO  testCases.LoginTests - Test TC_LG_006 passed
+2025-12-13 21:49:58.451 [main] INFO  testCases.LoginTests - Started the TC_LG_007	Validate login with invalid email format
+2025-12-13 21:49:58.561 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:49:58.870 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:49:59.071 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:49:59.670 [main] INFO  testCases.LoginTests - Test TC_LG_007 passed
+2025-12-13 21:49:59.674 [main] INFO  testCases.LoginTests - Started the Test TC_LG_010	Validate Forgot Password functionality
+2025-12-13 21:49:59.732 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:50:01.566 [main] INFO  testCases.LoginTests - Forgot password link clicked
+2025-12-13 21:50:01.852 [main] INFO  testCases.LoginTests - Entered the email address
+2025-12-13 21:50:08.620 [main] INFO  testCases.LoginTests - Test TC_LG_010 Passed
+2025-12-13 21:50:10.555 [main] INFO  testCases.SearchTests - Started the Test TC_SG_001 Validate Search function
+2025-12-13 21:50:10.633 [main] INFO  testCases.SearchTests - Navigating to Login page
+2025-12-13 21:50:10.888 [main] INFO  testCases.SearchTests - Filling Login data
+2025-12-13 21:50:11.095 [main] INFO  testCases.SearchTests - Clicked Login button
+2025-12-13 21:50:11.864 [main] ERROR testCases.SearchTests - Test failed due to unexpected exception
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=143.0.3650.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7a23689141b517dae0c0d5391b867005, clearElement {id=f.8BB19D6E92822C8434B2D5CE82BD9D2E.d.622F1A28D739F23F46018891A3529E4E.e.76}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.66, fedcm:accounts: true, goog:processID: 19924, ms:edgeOptions: {debuggerAddress: localhost:63678}, msedge: {msedgedriverVersion: 143.0.3650.80 (788579717f68..., userDataDir: C:\Users\harih\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63678/devtoo..., se:cdpVersion: 143.0.3650.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7a23689141b517dae0c0d5391b867005)] -> xpath: //input[@placeholder='Search']]
+Session ID: 7a23689141b517dae0c0d5391b867005
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129) ~[selenium-remote-driver-4.38.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.38.0.jar:?]
+	at jdk.proxy2.$Proxy30.clear(Unknown Source) ~[?:?]
+	at pageObjects.HomePage.clearSearch(HomePage.java:56) ~[test-classes/:?]
+	at testCases.SearchTests.verifySearchFnctn(SearchTests.java:33) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-12-13 21:50:12.131 [main] INFO  testCases.SearchTests - Started the Test TC_SG_002 Validate search with partial product name
+2025-12-13 21:50:12.684 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:50:12.742 [main] INFO  testCases.SearchTests - Test TC_SR_002 Passed
+2025-12-13 21:50:12.745 [main] INFO  testCases.SearchTests - Started the Test TC_SG_003 Validate search with case-insensitive input
+2025-12-13 21:50:13.143 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:50:13.225 [main] INFO  testCases.SearchTests - Test TC_SR_003 Passed
+2025-12-13 21:50:13.230 [main] INFO  testCases.SearchTests - Started the Test TC_SR_004 Validate search with special characters
+2025-12-13 21:50:13.734 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:50:13.785 [main] INFO  testCases.SearchTests - Test TC_SR_004 Passed
+2025-12-13 21:50:13.791 [main] INFO  testCases.SearchTests - Started the Test TC_SR_005 Validate search with empty input
+2025-12-13 21:50:14.563 [main] INFO  testCases.SearchTests - Clicked Search

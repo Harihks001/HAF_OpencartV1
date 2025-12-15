@@ -1,0 +1,84 @@
+2025-12-13 21:31:50.128 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-13 21:31:50.332 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-13 21:31:52.751 [main] INFO  testCases.SearchTests - Started the Test TC_SG_001 Validate Search function
+2025-12-13 21:31:52.973 [main] INFO  testCases.SearchTests - Navigating to Login page
+2025-12-13 21:31:53.272 [main] INFO  testCases.SearchTests - Filling Login data
+2025-12-13 21:31:54.379 [main] INFO  testCases.SearchTests - Clicked Login button
+2025-12-13 21:31:55.020 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:31:55.110 [main] INFO  testCases.SearchTests - Test TC_SR_001 Passed
+2025-12-13 21:31:55.122 [main] INFO  testCases.SearchTests - TC_SR_006 Validate search result navigation
+2025-12-13 21:31:55.744 [main] INFO  testCases.SearchTests - Test TC_SR_006 Passed
+2025-12-13 21:31:55.753 [main] INFO  testCases.SearchTests - TC_SR_008 Validate Add to Wish List from search results
+2025-12-13 21:31:55.877 [main] INFO  testCases.SearchTests - Clicked Add to Wishlist button
+2025-12-13 21:31:56.039 [main] INFO  testCases.SearchTests - Test TC_SR_008 Passed
+2025-12-13 21:31:56.044 [main] INFO  testCases.SearchTests - TC_SR_009 Validate Compare this Product from search results
+2025-12-13 21:31:56.113 [main] INFO  testCases.SearchTests - Clicked Compare this Product button
+2025-12-13 21:31:56.358 [main] INFO  testCases.SearchTests - Test TC_SR_009 Passed
+2025-12-13 21:31:56.369 [main] INFO  testCases.SearchTests - TC_SR_007 Validate Add to Cart from search results
+2025-12-13 21:31:57.531 [main] ERROR testCases.SearchTests - Test failed due to unexpected exception
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="button-cart" data-loading-text="Loading..." class="btn btn-primary btn-lg btn-block">...</button> is not clickable at point (1018, 608). Other element would receive the click: <input type="text" name="quantity" value="1" size="2" id="input-quantity" class="form-control">
+  (Session info: MicrosoftEdge=143.0.3650.66)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f8cf1bc9d021d960ec2141a5408dbe76, clickElement {id=f.F8E1FA553378603668E168698AC4AB18.d.CCCA005490F3E715CA10B871A2A67D2D.e.152}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.66, fedcm:accounts: true, goog:processID: 19816, ms:edgeOptions: {debuggerAddress: localhost:57437}, msedge: {msedgedriverVersion: 143.0.3650.80 (788579717f68..., userDataDir: C:\Users\harih\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57437/devtoo..., se:cdpVersion: 143.0.3650.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f8cf1bc9d021d960ec2141a5408dbe76)] -> xpath: //button[@id='button-cart']]
+Session ID: f8cf1bc9d021d960ec2141a5408dbe76
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.38.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.38.0.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.38.0.jar:?]
+	at jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.SearchPage.addToCart(SearchPage.java:100) ~[test-classes/:?]
+	at testCases.SearchTests.validateAddtoCart(SearchTests.java:186) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-12-13 21:31:57.730 [main] INFO  testCases.SearchTests - Started the Test TC_SG_002 Validate search with partial product name
+2025-12-13 21:31:58.159 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:31:58.230 [main] INFO  testCases.SearchTests - Test TC_SR_002 Passed
+2025-12-13 21:31:58.237 [main] INFO  testCases.SearchTests - Started the Test TC_SG_003 Validate search with case-insensitive input
+2025-12-13 21:31:58.765 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:31:58.813 [main] INFO  testCases.SearchTests - Test TC_SR_003 Passed
+2025-12-13 21:31:58.817 [main] INFO  testCases.SearchTests - Started the Test TC_SR_004 Validate search with special characters
+2025-12-13 21:31:59.192 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:31:59.229 [main] INFO  testCases.SearchTests - Test TC_SR_004 Passed
+2025-12-13 21:31:59.232 [main] INFO  testCases.SearchTests - Started the Test TC_SR_005 Validate search with empty input
+2025-12-13 21:31:59.830 [main] INFO  testCases.SearchTests - Clicked Search

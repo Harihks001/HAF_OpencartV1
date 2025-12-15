@@ -66,7 +66,7 @@ public class LoginTests extends BaseClass {
 			// Step3:Click Login button
 			lp.clickLoginbtn();
 			logger.info("Clicked Login button");
-			// Step4: verify user logged in successfully
+			// Step4: verify Unsuccessful login
 			String result = lp.getInvalidDetailsMsg();
 			Assert.assertEquals(result, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test TC_LG_002 passed");
@@ -97,7 +97,7 @@ public class LoginTests extends BaseClass {
 			// Step3:Click Login button
 			lp.clickLoginbtn();
 			logger.info("Clicked Login button");
-			// Step4: verify user logged in successfully
+			// Step4: verify Unsuccessful login
 			String result = lp.getInvalidDetailsMsg();
 			Assert.assertEquals(result, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test TC_LG_003 passed");
@@ -128,7 +128,7 @@ public class LoginTests extends BaseClass {
 			// Step3:Click Login button
 			lp.clickLoginbtn();
 			logger.info("Clicked Login button");
-			// Step4: verify user logged in successfully
+			// Step4: verify Unsuccessful login
 			String result = lp.getInvalidDetailsMsg();
 			Assert.assertEquals(result, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test TC_LG_004 passed");
@@ -159,7 +159,7 @@ public class LoginTests extends BaseClass {
 			// Step3:Click Login button
 			lp.clickLoginbtn();
 			logger.info("Clicked Login button");
-			// Step4: verify user logged in successfully
+			// Step4: verify Unsuccessful login
 			String result = lp.getInvalidDetailsMsg();
 			Assert.assertEquals(result, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test TC_LG_005 passed");
@@ -190,7 +190,7 @@ public class LoginTests extends BaseClass {
 			// Step3:Click Login button
 			lp.clickLoginbtn();
 			logger.info("Clicked Login button");
-			// Step4: verify user logged in successfully
+			// Step4: verify Unsuccessful login
 			String result = lp.getInvalidDetailsMsg();
 			Assert.assertEquals(result, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test TC_LG_006 passed");
@@ -221,7 +221,7 @@ public class LoginTests extends BaseClass {
 			// Step3:Click Login button
 			lp.clickLoginbtn();
 			logger.info("Clicked Login button");
-			// Step4: verify user logged in successfully
+			// Step4: verify Unsuccessful login
 			String result = lp.getInvalidDetailsMsg();
 			Assert.assertEquals(result, "Warning: No match for E-Mail Address and/or Password.");
 			logger.info("Test TC_LG_007 passed");
@@ -272,7 +272,7 @@ public class LoginTests extends BaseClass {
 			MyAccountPage mp = new MyAccountPage(driver);
 			mp.clickLogout();
 			logger.info("Clicked Logout button");
-			// Step4: verify user logged in successfully
+			// Step4: verify user logged out successfully
 			boolean result = mp.isAcclogoutDisplayed();
 			Assert.assertEquals(result, true, "Logout Failed");
 			logger.info("Test TC_LG_009 passed");

@@ -11,6 +11,7 @@
 		<classes>
 			<class name="testCases.RegistrationTests" />
 			<class name="testCases.LoginTests" />
+			<class name="testCases.SearchTests" />
 			<!--<class name="testCases.TC_LG_DDT" />
 			<class name="testCases.TC_RG_DDT" />-->
 		</classes>

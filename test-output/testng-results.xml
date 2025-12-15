@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="24" passed="23" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-01T11:38:42 IST" name="Suite" finished-at="2025-12-01T11:39:10 IST" duration-ms="28630">
+  <suite started-at="2025-12-15T13:32:52 IST" name="Suite" finished-at="2025-12-15T13:33:44 IST" duration-ms="51896">
     <groups>
     </groups>
-    <test started-at="2025-12-01T11:38:42 IST" name="RegisterTests" finished-at="2025-12-01T11:39:10 IST" duration-ms="28630">
-      <class name="testCases.TC_RG_001">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RG_001@207b8649]" started-at="2025-12-01T11:38:42 IST" name="setUp" finished-at="2025-12-01T11:38:44 IST" duration-ms="1753" status="PASS">
+    <test started-at="2025-12-15T13:32:52 IST" name="RegisterTests" finished-at="2025-12-15T13:33:44 IST" duration-ms="51896">
+      <class name="testCases.RegistrationTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTests@201b6b6f]" started-at="2025-12-15T13:32:52 IST" name="setUp" finished-at="2025-12-15T13:32:54 IST" duration-ms="2037" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,31 +23,190 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAccountRegistartion()[pri:1, instance:testCases.TC_RG_001@207b8649]" started-at="2025-12-01T11:38:44 IST" name="verifyAccountRegistartion" finished-at="2025-12-01T11:38:45 IST" duration-ms="1811" status="PASS">
+        <test-method signature="verifyAccountRegistartion()[pri:1, instance:testCases.RegistrationTests@201b6b6f]" started-at="2025-12-15T13:32:54 IST" name="verifyAccountRegistartion" finished-at="2025-12-15T13:32:56 IST" duration-ms="1797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountRegistartion -->
-        <test-method signature="verifyAccountRegistartionwithExistingEmail()[pri:2, instance:testCases.TC_RG_001@207b8649]" started-at="2025-12-01T11:38:45 IST" name="verifyAccountRegistartionwithExistingEmail" finished-at="2025-12-01T11:38:52 IST" duration-ms="6099" status="PASS">
+        <test-method signature="verifyAccountRegistartionwithExistingEmail()[pri:2, instance:testCases.RegistrationTests@201b6b6f]" started-at="2025-12-15T13:32:56 IST" name="verifyAccountRegistartionwithExistingEmail" finished-at="2025-12-15T13:33:02 IST" duration-ms="5941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountRegistartionwithExistingEmail -->
-        <test-method signature="verifyAccountRegistartionwithoutMandatiryFields()[pri:3, instance:testCases.TC_RG_001@207b8649]" started-at="2025-12-01T11:38:52 IST" name="verifyAccountRegistartionwithoutMandatiryFields" finished-at="2025-12-01T11:38:58 IST" duration-ms="6172" status="PASS">
+        <test-method signature="verifyAccountRegistartionwithoutMandatiryFields()[pri:3, instance:testCases.RegistrationTests@201b6b6f]" started-at="2025-12-15T13:33:02 IST" name="verifyAccountRegistartionwithoutMandatiryFields" finished-at="2025-12-15T13:33:08 IST" duration-ms="6096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountRegistartionwithoutMandatiryFields -->
-        <test-method signature="verifyAccountRegistartionwithInvalidEmail()[pri:4, instance:testCases.TC_RG_001@207b8649]" started-at="2025-12-01T11:38:58 IST" name="verifyAccountRegistartionwithInvalidEmail" finished-at="2025-12-01T11:39:03 IST" duration-ms="5677" status="PASS">
+        <test-method signature="verifyAccountRegistartionwithInvalidEmail()[pri:4, instance:testCases.RegistrationTests@201b6b6f]" started-at="2025-12-15T13:33:08 IST" name="verifyAccountRegistartionwithInvalidEmail" finished-at="2025-12-15T13:33:13 IST" duration-ms="5595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountRegistartionwithInvalidEmail -->
-        <test-method signature="verifyAccountRegistartionPasswordMismatch()[pri:5, instance:testCases.TC_RG_001@207b8649]" started-at="2025-12-01T11:39:03 IST" name="verifyAccountRegistartionPasswordMismatch" finished-at="2025-12-01T11:39:10 IST" duration-ms="6784" status="PASS">
+        <test-method signature="verifyAccountRegistartionPasswordMismatch()[pri:5, instance:testCases.RegistrationTests@201b6b6f]" started-at="2025-12-15T13:33:13 IST" name="verifyAccountRegistartionPasswordMismatch" finished-at="2025-12-15T13:33:19 IST" duration-ms="5663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAccountRegistartionPasswordMismatch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RG_001@207b8649]" started-at="2025-12-01T11:39:10 IST" name="tearDown" finished-at="2025-12-01T11:39:10 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RegistrationTests@201b6b6f]" started-at="2025-12-15T13:33:19 IST" name="tearDown" finished-at="2025-12-15T13:33:19 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_RG_001 -->
+      </class> <!-- testCases.RegistrationTests -->
+      <class name="testCases.SearchTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:32 IST" name="setUp" finished-at="2025-12-15T13:33:33 IST" duration-ms="1434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchFnctn()[pri:1, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:33 IST" name="verifySearchFnctn" finished-at="2025-12-15T13:33:35 IST" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFnctn -->
+        <test-method signature="verifySearchResultNavigation()[pri:2, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:35 IST" name="verifySearchResultNavigation" finished-at="2025-12-15T13:33:35 IST" depends-on-methods="testCases.SearchTests.verifySearchFnctn" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultNavigation -->
+        <test-method signature="validateAddtoWhislist()[pri:3, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:35 IST" name="validateAddtoWhislist" finished-at="2025-12-15T13:33:35 IST" depends-on-methods="testCases.SearchTests.verifySearchResultNavigation" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddtoWhislist -->
+        <test-method signature="validateAddtoComparison()[pri:4, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:35 IST" name="validateAddtoComparison" finished-at="2025-12-15T13:33:36 IST" depends-on-methods="testCases.SearchTests.verifySearchResultNavigation" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddtoComparison -->
+        <test-method signature="validateAddtoCart()[pri:5, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:36 IST" name="validateAddtoCart" finished-at="2025-12-15T13:33:37 IST" depends-on-methods="testCases.SearchTests.verifySearchResultNavigation" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddtoCart -->
+        <test-method signature="verifySearchforPartialName()[pri:6, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:37 IST" name="verifySearchforPartialName" finished-at="2025-12-15T13:33:37 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchforPartialName -->
+        <test-method signature="verifySearchforCaseSensitivity()[pri:7, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:37 IST" name="verifySearchforCaseSensitivity" finished-at="2025-12-15T13:33:37 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchforCaseSensitivity -->
+        <test-method signature="verifySearchforSpecialCharacters()[pri:8, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:37 IST" name="verifySearchforSpecialCharacters" finished-at="2025-12-15T13:33:38 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchforSpecialCharacters -->
+        <test-method signature="verifySearchforEmptyInput()[pri:9, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:38 IST" name="verifySearchforEmptyInput" finished-at="2025-12-15T13:33:43 IST" duration-ms="5605" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Search results Displayed ignoring Empty item expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Search results Displayed ignoring Empty item expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.SearchTests.verifySearchforEmptyInput(SearchTests.java:145)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchforEmptyInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchTests@b78a709]" started-at="2025-12-15T13:33:44 IST" name="tearDown" finished-at="2025-12-15T13:33:44 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SearchTests -->
+      <class name="testCases.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:19 IST" name="setUp" finished-at="2025-12-15T13:33:21 IST" duration-ms="1608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAccountLogin()[pri:1, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:21 IST" name="verifyAccountLogin" finished-at="2025-12-15T13:33:22 IST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountLogin -->
+        <test-method signature="validateLoginPersistence()[pri:2, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:22 IST" name="validateLoginPersistence" finished-at="2025-12-15T13:33:23 IST" depends-on-methods="testCases.LoginTests.verifyAccountLogin" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPersistence -->
+        <test-method signature="validateLogOut()[pri:3, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:23 IST" name="validateLogOut" finished-at="2025-12-15T13:33:23 IST" depends-on-methods="testCases.LoginTests.verifyAccountLogin" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogOut -->
+        <test-method signature="validateLoginwithInvalidPasswrd()[pri:4, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:23 IST" name="validateLoginwithInvalidPasswrd" finished-at="2025-12-15T13:33:24 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithInvalidPasswrd -->
+        <test-method signature="validateLoginwithInvalidEmail()[pri:5, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:24 IST" name="validateLoginwithInvalidEmail" finished-at="2025-12-15T13:33:25 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithInvalidEmail -->
+        <test-method signature="validateLoginwithEmptyEmail()[pri:6, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:25 IST" name="validateLoginwithEmptyEmail" finished-at="2025-12-15T13:33:26 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithEmptyEmail -->
+        <test-method signature="validateLoginwithEmptyPassword()[pri:7, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:26 IST" name="validateLoginwithEmptyPassword" finished-at="2025-12-15T13:33:27 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithEmptyPassword -->
+        <test-method signature="validateLoginwithEmptycredentials()[pri:8, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:27 IST" name="validateLoginwithEmptycredentials" finished-at="2025-12-15T13:33:28 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithEmptycredentials -->
+        <test-method signature="validateLoginwithInvalidEmailFormat()[pri:9, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:28 IST" name="validateLoginwithInvalidEmailFormat" finished-at="2025-12-15T13:33:29 IST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithInvalidEmailFormat -->
+        <test-method signature="verifyForgotPasswordFunctn()[pri:10, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:29 IST" name="verifyForgotPasswordFunctn" finished-at="2025-12-15T13:33:31 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordFunctn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTests@67ab1c47]" started-at="2025-12-15T13:33:31 IST" name="tearDown" finished-at="2025-12-15T13:33:32 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginTests -->
     </test> <!-- RegisterTests -->
   </suite> <!-- Suite -->
 </testng-results>

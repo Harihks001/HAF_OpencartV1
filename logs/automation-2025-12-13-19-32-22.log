@@ -1,0 +1,11 @@
+2025-12-13 19:32:23.214 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-13 19:32:23.429 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-13 19:32:25.821 [main] INFO  testCases.SearchTests - Started the Test TC_SG_001 Validate Search function
+2025-12-13 19:32:26.445 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 19:32:26.553 [main] INFO  testCases.SearchTests - Test TC_SG_001 Passed
+2025-12-13 19:32:26.590 [main] INFO  testCases.SearchTests - Started the Test TC_SG_002 Validate search with partial product name
+2025-12-13 19:32:27.006 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 19:32:32.249 [main] INFO  testCases.SearchTests - Started the Test TC_SG_003 Validate search with case-insensitive input
+2025-12-13 19:32:32.588 [main] INFO  testCases.SearchTests - Clicked Search

@@ -21,23 +21,45 @@ public class HomePage extends BasePage {
 	WebElement register;
 	@FindBy(xpath = "//a[normalize-space()='Login']")
 	WebElement login;
+	@FindBy(xpath = "//input[@placeholder='Search']")
+	WebElement search;
+	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
+	WebElement searchbtn;
 
-//Method 1 to Click My account
+//Method to Click My account
 	public void clickMyAccount() {
 
 		myAccount.click();
 	}
 
-//Method 2 to Click Register
+//Method to Click Register
 	public void clickRegister() {
 
 		register.click();
 	}
 
-//Method 2 to Click Login
+//Method to Click Login
 	public void clickLogin() {
 
 		login.click();
+	}
+
+	// Method to Search items
+	public void setSearchas(String item) {
+
+		search.sendKeys(item);
+	}
+	
+	// Method to Clear Search 
+		public void clearSearch() {
+
+			search.clear();
+		}
+
+	// Method to Click Search
+	public void clickSearch() {
+
+		searchbtn.click();
 	}
 
 }

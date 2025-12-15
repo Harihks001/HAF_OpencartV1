@@ -1,0 +1,31 @@
+2025-12-13 21:30:25.400 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-13 21:30:25.627 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-13 21:30:28.084 [main] INFO  testCases.SearchTests - Started the Test TC_SG_001 Validate Search function
+2025-12-13 21:30:28.217 [main] INFO  testCases.SearchTests - Navigating to Login page
+2025-12-13 21:30:28.638 [main] INFO  testCases.SearchTests - Filling Login data
+2025-12-13 21:30:31.242 [main] INFO  testCases.SearchTests - Clicked Login button
+2025-12-13 21:30:31.919 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:30:32.050 [main] INFO  testCases.SearchTests - Test TC_SR_001 Passed
+2025-12-13 21:30:32.077 [main] INFO  testCases.SearchTests - TC_SR_006 Validate search result navigation
+2025-12-13 21:30:32.823 [main] INFO  testCases.SearchTests - Test TC_SR_006 Passed
+2025-12-13 21:30:32.833 [main] INFO  testCases.SearchTests - TC_SR_008 Validate Add to Wish List from search results
+2025-12-13 21:30:32.962 [main] INFO  testCases.SearchTests - Clicked Add to Wishlist button
+2025-12-13 21:30:33.167 [main] INFO  testCases.SearchTests - Test TC_SR_008 Passed
+2025-12-13 21:30:33.184 [main] INFO  testCases.SearchTests - TC_SR_009 Validate Compare this Product from search results
+2025-12-13 21:30:33.295 [main] INFO  testCases.SearchTests - Clicked Compare this Product button
+2025-12-13 21:30:33.572 [main] INFO  testCases.SearchTests - Test TC_SR_009 Passed
+2025-12-13 21:30:33.592 [main] INFO  testCases.SearchTests - TC_SR_007 Validate Add to Cart from search results
+2025-12-13 21:30:33.758 [main] INFO  testCases.SearchTests - Clicked Add to Cart button
+2025-12-13 21:30:34.403 [main] INFO  testCases.SearchTests - Started the Test TC_SG_002 Validate search with partial product name
+2025-12-13 21:30:34.937 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:30:35.039 [main] INFO  testCases.SearchTests - Test TC_SR_002 Passed
+2025-12-13 21:30:35.044 [main] INFO  testCases.SearchTests - Started the Test TC_SG_003 Validate search with case-insensitive input
+2025-12-13 21:30:35.531 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:30:35.598 [main] INFO  testCases.SearchTests - Test TC_SR_003 Passed
+2025-12-13 21:30:35.604 [main] INFO  testCases.SearchTests - Started the Test TC_SR_004 Validate search with special characters
+2025-12-13 21:30:36.012 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:30:36.041 [main] INFO  testCases.SearchTests - Test TC_SR_004 Passed
+2025-12-13 21:30:36.045 [main] INFO  testCases.SearchTests - Started the Test TC_SR_005 Validate search with empty input
+2025-12-13 21:30:36.804 [main] INFO  testCases.SearchTests - Clicked Search

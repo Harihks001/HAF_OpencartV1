@@ -1,0 +1,19 @@
+2025-12-13 20:25:23.167 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-13 20:25:23.325 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-13 20:25:25.680 [main] INFO  testCases.SearchTests - Started the Test TC_SG_001 Validate Search function
+2025-12-13 20:25:26.084 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 20:25:26.131 [main] INFO  testCases.SearchTests - Test TC_SR_001 Passed
+2025-12-13 20:25:26.139 [main] INFO  testCases.SearchTests - TC_SR_006 Validate search result navigation
+2025-12-13 20:25:26.642 [main] INFO  testCases.SearchTests - Started the Test TC_SG_002 Validate search with partial product name
+2025-12-13 20:25:26.980 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 20:25:27.013 [main] INFO  testCases.SearchTests - Test TC_SR_002 Passed
+2025-12-13 20:25:27.015 [main] INFO  testCases.SearchTests - Started the Test TC_SG_003 Validate search with case-insensitive input
+2025-12-13 20:25:27.290 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 20:25:27.323 [main] INFO  testCases.SearchTests - Test TC_SR_003 Passed
+2025-12-13 20:25:27.325 [main] INFO  testCases.SearchTests - Started the Test TC_SR_004 Validate search with special characters
+2025-12-13 20:25:27.586 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 20:25:27.604 [main] INFO  testCases.SearchTests - Test TC_SR_004 Passed
+2025-12-13 20:25:27.606 [main] INFO  testCases.SearchTests - Started the Test TC_SR_005 Validate search with empty input
+2025-12-13 20:25:28.156 [main] INFO  testCases.SearchTests - Clicked Search

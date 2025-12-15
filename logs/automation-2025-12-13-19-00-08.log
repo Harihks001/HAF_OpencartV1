@@ -1,0 +1,7 @@
+2025-12-13 19:00:08.300 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-13 19:00:08.554 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-13 19:00:15.781 [main] INFO  testCases.SearchTests - Started the Test TC_SG_001 Validate Search function
+2025-12-13 19:00:16.265 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 19:00:16.293 [main] INFO  testCases.SearchTests - Test TC_SG_001 Passed

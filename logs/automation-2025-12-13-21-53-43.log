@@ -1,0 +1,122 @@
+2025-12-13 21:53:43.486 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml"
+2025-12-13 21:53:43.789 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Eclipse\HAF_OpencartV1\XMLFiles\master.xml
+
+2025-12-13 21:53:46.044 [main] INFO  testCases.RegistrationTests - Started TC_RG_001 Validate successful account registration
+2025-12-13 21:53:46.532 [main] INFO  testCases.RegistrationTests - Navigated to Registration Page
+2025-12-13 21:53:46.895 [main] INFO  testCases.RegistrationTests - Account registration form is filled
+2025-12-13 21:53:47.880 [main] INFO  testCases.RegistrationTests - TC_RG_001 Passed
+2025-12-13 21:53:48.258 [main] INFO  testCases.RegistrationTests - Fullname:  AutoReg bwNvF
+2025-12-13 21:53:48.259 [main] INFO  testCases.RegistrationTests - Email: WUj147@mail.com
+2025-12-13 21:53:48.259 [main] INFO  testCases.RegistrationTests - Password used: Test@001
+2025-12-13 21:53:48.259 [main] INFO  testCases.RegistrationTests - Generated Telephone: 5751831142
+2025-12-13 21:53:48.278 [main] INFO  testCases.RegistrationTests - Started TC_RG_002	Validate registration with existing email
+2025-12-13 21:53:48.596 [main] INFO  testCases.RegistrationTests - Navigated to Registration Page
+2025-12-13 21:53:48.951 [main] INFO  testCases.RegistrationTests - Account registration form is filled
+2025-12-13 21:53:54.503 [main] INFO  testCases.RegistrationTests - Warning message displayed
+2025-12-13 21:53:54.550 [main] INFO  testCases.RegistrationTests - TC_RG_002 Passed
+2025-12-13 21:53:54.560 [main] INFO  testCases.RegistrationTests - Started TC_RG_003 Validate registration with missing mandatory fields
+2025-12-13 21:53:55.022 [main] INFO  testCases.RegistrationTests - Navigated to Registration Page
+2025-12-13 21:53:55.634 [main] INFO  testCases.RegistrationTests - Account registration form left blank
+2025-12-13 21:54:01.351 [main] INFO  testCases.RegistrationTests - TC_RG_003 Passed
+2025-12-13 21:54:01.359 [main] INFO  testCases.RegistrationTests - Started TC_RG_003 Validate registration with missing mandatory fields
+2025-12-13 21:54:01.827 [main] INFO  testCases.RegistrationTests - Navigated to Registration Page
+2025-12-13 21:54:02.467 [main] INFO  testCases.RegistrationTests - Account registration form is filled
+2025-12-13 21:54:07.857 [main] INFO  testCases.RegistrationTests - TC_RG_004 Passed
+2025-12-13 21:54:07.870 [main] INFO  testCases.RegistrationTests - Started TC_RG_005 Validate registration with mismatched password and confirm password
+2025-12-13 21:54:07.870 [main] INFO  testCases.RegistrationTests - Navigating to registration page
+2025-12-13 21:54:08.357 [main] INFO  testCases.RegistrationTests - Filling registration form with mismatched password data
+2025-12-13 21:54:08.550 [main] DEBUG testCases.RegistrationTests - Generated email: KEO105@mail.com
+2025-12-13 21:54:08.550 [main] DEBUG testCases.RegistrationTests - Generated phone: 2168598175
+2025-12-13 21:54:08.736 [main] DEBUG testCases.RegistrationTests - Entered password: Test@123
+2025-12-13 21:54:08.793 [main] DEBUG testCases.RegistrationTests - Entered confirm password: Test@321
+2025-12-13 21:54:08.849 [main] INFO  testCases.RegistrationTests - Agreed to privacy policy
+2025-12-13 21:54:08.908 [main] INFO  testCases.RegistrationTests - Submitted registration form
+2025-12-13 21:54:13.956 [main] DEBUG testCases.RegistrationTests - Confirmation message received: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Your Account Has Been Created!']"}
+  (Session info: MicrosoftEdge=143.0.3650.66)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f0e26f1a50b2634b41aa7ec34d26b842, findElement {using=xpath, value=//h1[normalize-space()='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.66, fedcm:accounts: true, goog:processID: 17284, ms:edgeOptions: {debuggerAddress: localhost:52530}, msedge: {msedgedriverVersion: 143.0.3650.80 (788579717f68..., userDataDir: C:\Users\harih\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52530/devtoo..., se:cdpVersion: 143.0.3650.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0e26f1a50b2634b41aa7ec34d26b842
+2025-12-13 21:54:13.958 [main] INFO  testCases.RegistrationTests - Registration failed as expected due to password mismatch
+2025-12-13 21:54:13.982 [main] DEBUG testCases.RegistrationTests - Field error count: 1
+2025-12-13 21:54:14.015 [main] DEBUG testCases.RegistrationTests - Actual error messages: [Password confirmation does not match password!]
+2025-12-13 21:54:14.015 [main] INFO  testCases.RegistrationTests - TC_RG_005 Passed
+2025-12-13 21:54:16.311 [main] INFO  testCases.LoginTests - Started the Test TC_LG_001 Validate successful login
+2025-12-13 21:54:16.410 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:54:16.659 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:54:17.683 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:54:17.749 [main] INFO  testCases.LoginTests - Test TC_LG_001 Passed
+2025-12-13 21:54:17.759 [main] INFO  testCases.LoginTests - Started the TC_LG_008	Validate login session persistence
+2025-12-13 21:54:18.125 [main] INFO  testCases.LoginTests - Navigating to wishlist page
+2025-12-13 21:54:18.182 [main] INFO  testCases.LoginTests - Navigating back to the account Page
+2025-12-13 21:54:18.310 [main] INFO  testCases.LoginTests - Test TC_LG_008 passed
+2025-12-13 21:54:18.320 [main] INFO  testCases.LoginTests - Started the Test TC_LG_009	Validate logout after login
+2025-12-13 21:54:18.740 [main] INFO  testCases.LoginTests - Clicked Logout button
+2025-12-13 21:54:18.789 [main] INFO  testCases.LoginTests - Test TC_LG_009 passed
+2025-12-13 21:54:18.789 [main] INFO  testCases.LoginTests - Started the Test TC_LG_002	Validate login with invalid password
+2025-12-13 21:54:18.889 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:54:19.147 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:54:19.467 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:54:20.137 [main] INFO  testCases.LoginTests - Test TC_LG_002 passed
+2025-12-13 21:54:20.141 [main] INFO  testCases.LoginTests - Started the Test TC_LG_003	Validate login with unregistered email
+2025-12-13 21:54:20.255 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:54:20.544 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:54:21.356 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:54:21.435 [main] INFO  testCases.LoginTests - Test TC_LG_003 passed
+2025-12-13 21:54:21.440 [main] INFO  testCases.LoginTests - Started the Test TC_LG_004	Validate login with empty email field
+2025-12-13 21:54:21.570 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:54:21.870 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:54:22.041 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:54:22.738 [main] INFO  testCases.LoginTests - Test TC_LG_004 passed
+2025-12-13 21:54:22.743 [main] INFO  testCases.LoginTests - Started the Test TC_LG_005	Validate login with empty password field
+2025-12-13 21:54:22.872 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:54:23.210 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:54:23.473 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:54:23.905 [main] INFO  testCases.LoginTests - Test TC_LG_005 passed
+2025-12-13 21:54:23.911 [main] INFO  testCases.LoginTests - Started the TC_LG_006	Validate login with both fields empty
+2025-12-13 21:54:24.025 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:54:24.333 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:54:24.615 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:54:25.298 [main] INFO  testCases.LoginTests - Test TC_LG_006 passed
+2025-12-13 21:54:25.305 [main] INFO  testCases.LoginTests - Started the TC_LG_007	Validate login with invalid email format
+2025-12-13 21:54:25.418 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:54:25.736 [main] INFO  testCases.LoginTests - Filling Login data
+2025-12-13 21:54:26.707 [main] INFO  testCases.LoginTests - Clicked Login button
+2025-12-13 21:54:26.743 [main] INFO  testCases.LoginTests - Test TC_LG_007 passed
+2025-12-13 21:54:26.748 [main] INFO  testCases.LoginTests - Started the Test TC_LG_010	Validate Forgot Password functionality
+2025-12-13 21:54:26.858 [main] INFO  testCases.LoginTests - Navigating to Login page
+2025-12-13 21:54:27.494 [main] INFO  testCases.LoginTests - Forgot password link clicked
+2025-12-13 21:54:27.676 [main] INFO  testCases.LoginTests - Entered the email address
+2025-12-13 21:54:29.504 [main] INFO  testCases.LoginTests - Test TC_LG_010 Passed
+2025-12-13 21:54:32.305 [main] INFO  testCases.SearchTests - Started the Test TC_SG_001 Validate Search function
+2025-12-13 21:54:32.450 [main] INFO  testCases.SearchTests - Navigating to Login page
+2025-12-13 21:54:32.707 [main] INFO  testCases.SearchTests - Filling Login data
+2025-12-13 21:54:32.963 [main] INFO  testCases.SearchTests - Clicked Login button
+2025-12-13 21:54:34.266 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:54:34.392 [main] INFO  testCases.SearchTests - Test TC_SR_001 Passed
+2025-12-13 21:54:34.400 [main] INFO  testCases.SearchTests - TC_SR_006 Validate search result navigation
+2025-12-13 21:54:35.147 [main] INFO  testCases.SearchTests - Test TC_SR_006 Passed
+2025-12-13 21:54:35.152 [main] INFO  testCases.SearchTests - TC_SR_008 Validate Add to Wish List from search results
+2025-12-13 21:54:35.271 [main] INFO  testCases.SearchTests - Clicked Add to Wishlist button
+2025-12-13 21:54:35.585 [main] INFO  testCases.SearchTests - Test TC_SR_008 Passed
+2025-12-13 21:54:35.592 [main] INFO  testCases.SearchTests - TC_SR_009 Validate Compare this Product from search results
+2025-12-13 21:54:35.721 [main] INFO  testCases.SearchTests - Clicked Compare this Product button
+2025-12-13 21:54:36.062 [main] INFO  testCases.SearchTests - Test TC_SR_009 Passed
+2025-12-13 21:54:36.071 [main] INFO  testCases.SearchTests - TC_SR_007 Validate Add to Cart from search results
+2025-12-13 21:54:36.302 [main] INFO  testCases.SearchTests - Clicked Add to Cart button
+2025-12-13 21:54:37.234 [main] INFO  testCases.SearchTests - Test TC_SR_007 Passed
+2025-12-13 21:54:37.240 [main] INFO  testCases.SearchTests - Started the Test TC_SG_002 Validate search with partial product name
+2025-12-13 21:54:37.838 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:54:37.904 [main] INFO  testCases.SearchTests - Test TC_SR_002 Passed
+2025-12-13 21:54:37.906 [main] INFO  testCases.SearchTests - Started the Test TC_SG_003 Validate search with case-insensitive input
+2025-12-13 21:54:38.350 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:54:38.401 [main] INFO  testCases.SearchTests - Test TC_SR_003 Passed
+2025-12-13 21:54:38.403 [main] INFO  testCases.SearchTests - Started the Test TC_SR_004 Validate search with special characters
+2025-12-13 21:54:38.776 [main] INFO  testCases.SearchTests - Clicked Search
+2025-12-13 21:54:38.805 [main] INFO  testCases.SearchTests - Test TC_SR_004 Passed
+2025-12-13 21:54:38.808 [main] INFO  testCases.SearchTests - Started the Test TC_SR_005 Validate search with empty input
+2025-12-13 21:54:39.392 [main] INFO  testCases.SearchTests - Clicked Search
